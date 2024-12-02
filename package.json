@@ -1,0 +1,32 @@
+{
+  "name": "mstra-achademy",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:3000": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.1.0",
+    "axios": "^1.7.7",
+    "pinia": "^2.2.4",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "sweetalert2": "^11.14.3",
+    "swiper": "^10.3.1",
+    "v-lazy-image": "^2.1.1",
+    "vue": "^3.5.12",
+    "vue-material-design-icons": "^5.3.1",
+    "vue-router": "^4.4.5",
+    "vue-tel-input": "^8.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.8"
+  }
+}
